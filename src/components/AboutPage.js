@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 function AboutPage() {
   return (
-      <div>
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is my portfolio website created using React.js</p>
-      </div>
+    <div>
+      <h2>About Page</h2>
+      <p>This is the about page.</p>
+    </div>
   );
 }
 
 export default AboutPage;
+
