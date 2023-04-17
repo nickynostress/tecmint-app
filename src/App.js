@@ -6,10 +6,12 @@ import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import HomePage from './components/HomePage';
 import NavPage from './components/NavPage';
+import './components/styles/app.css';
 
 function App() {
   return (
     <Router>
+      <div className="app-container">
         <Header />
         <Routes>
           <Route exact path="/" element={<HomePage/>}/>
@@ -18,8 +20,8 @@ function App() {
           <Route exact path="/navigation" element={<NavPage/>}/>
         </Routes>
         <Footer />
+      </div>
     </Router>
-
   );
 }
 
