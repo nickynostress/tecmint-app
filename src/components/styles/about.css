@@ -1,0 +1,16 @@
+/* Apply styles to the h2 element */
+h2 {
+    color: #333; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+    padding-bottom: 20px; /* Bottom padding for spacing */
+}
+  
+/* Apply styles to the p element */
+p {
+    color: #666; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    line-height: 1.6; /* Line height for better readability */
+    margin-top: 10px; /* Top margin for spacing */
+    padding-top: 20px; /* Top padding for spacing */
+}

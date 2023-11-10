@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-
 function ContactForm() {
   const [formData, setFormData] = useState({
     nimi: '',
@@ -22,13 +21,9 @@ function ContactForm() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch(
+      const response = await axios.post(
         process.env.REACT_APP_API_URL + 'send-email',
-        {
-          method: 'POST',
-          // No need to set headers manually when using FormData
-          body: formData,
-        }
+        formData
       );
       console.log('Email response:', response.data);
       // You can reset the form or show a success message here
@@ -42,27 +37,46 @@ function ContactForm() {
     <div>
       <h2>Varaa aika leikkuulle</h2>
       <form onSubmit={handleSubmit}>
-        <label>
-          Nimi: <input type="text" name="nimi" value={formData.nimi} onChange={handleInputChange} required />
-        </label>
-        <br />
-        <label>
-          Puhelinnumero: <input type="tel" name="puhelinnumero" value={formData.puhelinnumero} onChange={handleInputChange} />
-        </label>
-        <br />
-        <label>
-          Päivämäärä: <input type="date" name="paivamaara" value={formData.paivamaara} onChange={handleInputChange} />
-        </label>
-        <br />
-        <label>
-          Sähköposti: <input type="email" name="sahkoposti" value={formData.sahkoposti} onChange={handleInputChange} required />
-        </label>
-        <br />
-        <label>
-          Viesti: <textarea name="viesti" value={formData.viesti} onChange={handleInputChange}></textarea>
-        </label>
-        <br />
-        <button type="submit">Lähetä</button>
+        <div className="form-group">
+          <label htmlFor="nimi">
+            Nimi: <input type="text" id="nimi" name="nimi" value={formData.nimi} onChange={handleInputChange} required />
+          </label>
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="puhelinnumero">
+            Puhelinnumero: <input type="tel" id="puhelinnumero" name="puhelinnumero" value={formData.puhelinnumero} onChange={handleInputChange} />
+          </label>
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="paivamaara">
+            Päivämäärä:
+          </label>
+          <input
+            type="date"
+            id="paivamaara"
+            name="paivamaara"
+            value={formData.paivamaara}
+            onChange={handleInputChange}
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="sahkoposti">
+            Sähköposti: <input type="email" id="sahkoposti" name="sahkoposti" value={formData.sahkoposti} onChange={handleInputChange} required />
+          </label>
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="viesti">
+            Viesti: <textarea id="viesti" name="viesti" value={formData.viesti} onChange={handleInputChange}></textarea>
+          </label>
+        </div>
+
+        <div className="form-group">
+          <button type="submit">Lähetä</button>
+        </div>
       </form>
     </div>
   );

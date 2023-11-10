@@ -1,5 +1,15 @@
+/* styles/header.css */
+
 .header-title {
-    color: red;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold; 
-  }
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 50px; /* Adjust the font size as needed */
+  text-align: center; /* Horizontal centering */
+  display: flex;
+  justify-content: center; /* Horizontal centering with flexbox */
+  align-items: center; /* Vertical centering with flexbox */
+  height: 100%; /* You might need to adjust the height as per your layout */
+  margin: auto; /* Center the element horizontally with auto margin */
+  padding: 30px; /* Adding 10% padding to all sides */
+}

@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p className="footer-text">&copy; 2023 My Website. All Rights Reserved.</p>
+        <p className="footer-text">&copy; 2023 NICKYNOSTRESS. All Rights Reserved.</p>
         <ul className="social-icons">
           <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
           <li><a href="#"><i className="fab fa-twitter"></i></a></li>

@@ -1,29 +1,30 @@
 /* Menu.css */
 
 nav {
-    background-color: #333; /* Dark background color */
-    padding: 10px 0; /* Add some spacing around the menu */
-  }
-  
-  ul {
-    list-style: none; /* Remove default list styles */
-    display: flex;
-    justify-content: space-around; /* Distribute menu items evenly */
-  }
-  
-  li {
-    margin: 0;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #fff; /* White text color for links */
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s; /* Smooth color transition on hover */
-  }
-  
-  a:hover {
-    color: #007bff; /* Change color on hover to mimic Apple's link color */
-  }
-  
+  background-color: darkslategrey; /* Dark background color */
+  padding: 10px 20px; /* Add padding to the top and bottom (10px) and left and right (20px) of the menu */
+  margin: 20px; /* Add margin to the entire nav element */
+  font-family: 'Arial', sans-serif; /* Set the desired font family */
+}
+
+ul {
+  list-style: none; /* Remove default list styles */
+  display: flex;
+  justify-content: space-around; /* Distribute menu items evenly */
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff; /* White text color for links */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #007bff; /* Change color on hover to mimic Apple's link color */
+}

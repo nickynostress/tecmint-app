@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './styles/about.css'; // Update the path to your about.css file
 
 function AboutPage() {
   return (
@@ -10,4 +12,3 @@ function AboutPage() {
 }
 
 export default AboutPage;
-

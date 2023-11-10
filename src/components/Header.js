@@ -5,7 +5,7 @@ import './styles/header.css';
 function Header() {
   return (
     <header>
-      <h1 className="header-title">ProMen Barbers</h1>
+      <h1 className="header-title">Portfolio Website</h1>
       <Menu />
     </header>
   );

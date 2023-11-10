@@ -1,35 +1,38 @@
+/* Move footer to the bottom of the page */
 .footer {
-    background-color: #202225;
-    color: #dcddde;
-    padding: 20px 0;
-    width: 100%;
-  }
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Set your footer background color */
+  color: white; /* Set your footer text color */
+  padding: 10px; /* Set padding for better appearance */
+} 
   
-  .footer-text {
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .social-icons {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .social-icons li {
-    margin: 0 10px;
-  }
-  
-  .social-icons li a {
-    color: #dcddde;
-    font-size: 20px;
-  }
-  
-  .social-icons li a:hover {
-    color: #7289da;
-  }
-  
+.footer-text {
+  font-size: 15px; /* Adjust the font size as needed */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons li a {
+  color: #dcddde;
+  font-size: 20px;
+}
+
+.social-icons li a:hover {
+  color: #7289da;
+}
