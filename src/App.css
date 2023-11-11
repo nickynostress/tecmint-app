@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.loremipsum {
+  color: whitesmoke; /* Text color */
+  font-family: 'Arial', sans-serif; /* Font family */
+  line-height: 1.6; /* Line height for better readability */
+  margin-top: 10px; /* Top margin for spacing */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

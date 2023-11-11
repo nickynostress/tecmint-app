@@ -53,6 +53,7 @@ function ContactForm() {
           <label htmlFor="paivamaara">
             Päivämäärä:
           </label>
+          
           <input
             type="date"
             id="paivamaara"
