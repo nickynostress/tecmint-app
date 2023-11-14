@@ -1,5 +1,8 @@
+// ContactForm.js
+
 import React, { useState } from 'react';
 import axios from 'axios';
+import './styles/contactform.css';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -36,48 +39,8 @@ function ContactForm() {
   return (
     <div>
       <h2>Varaa aika leikkuulle</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="nimi">
-            Nimi: <input type="text" id="nimi" name="nimi" value={formData.nimi} onChange={handleInputChange} required />
-          </label>
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="puhelinnumero">
-            Puhelinnumero: <input type="tel" id="puhelinnumero" name="puhelinnumero" value={formData.puhelinnumero} onChange={handleInputChange} />
-          </label>
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="paivamaara">
-            Päivämäärä:
-          </label>
-          
-          <input
-            type="date"
-            id="paivamaara"
-            name="paivamaara"
-            value={formData.paivamaara}
-            onChange={handleInputChange}
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="sahkoposti">
-            Sähköposti: <input type="email" id="sahkoposti" name="sahkoposti" value={formData.sahkoposti} onChange={handleInputChange} required />
-          </label>
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="viesti">
-            Viesti: <textarea id="viesti" name="viesti" value={formData.viesti} onChange={handleInputChange}></textarea>
-          </label>
-        </div>
-
-        <div className="form-group">
-          <button type="submit">Lähetä</button>
-        </div>
+      <form className="contact-form" onSubmit={handleSubmit}>
+        {/* ... (rest of your form) */}
       </form>
     </div>
   );

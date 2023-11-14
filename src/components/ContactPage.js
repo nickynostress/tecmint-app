@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from './ContactForm';
+import './styles/contactpage.css';
 
 function ContactPage() {
   return (
