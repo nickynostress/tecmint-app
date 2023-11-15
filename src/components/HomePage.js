@@ -17,8 +17,7 @@ function HomePage() {
       <div className='loremipsum-box'>
         <p className='loremipsum'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Condimentum mattis pellentesque id nibh. Id diam vel quam elementum pulvinar etiam non quam. 
-          Adipiscing elit duis tristique sollicitudin nibh. Pulvinar sapien et ligula ullamcorper.
+          Condimentum mattis pellentesque id nibh. Id diam vel quam elementum pulvinar etiam non quam.
         </p>
       </div>
     </div>
