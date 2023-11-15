@@ -1,30 +1,50 @@
+/* styles/contactpage.css */
+
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px; /* Set a maximum width for the form */
-    margin: 0 auto; /* Center the form horizontally */
-  }
-  
-  .contact-form label {
-    margin-bottom: 5px; /* Add some spacing between labels */
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%; /* Make input fields take up full width */
-    margin-bottom: 10px; /* Add some spacing between input fields */
-    padding: 8px; /* Add padding for better appearance */
-  }
-  
-  .contact-form button {
-    background-color: #007bff; /* Change button background color */
-    color: #fff; /* Change button text color */
-    padding: 10px; /* Add padding to the button */
-    border: none; /* Remove button border */
-    cursor: pointer;
-  }
-  
-  .contact-form button:hover {
-    background-color: #0056b3; /* Change button background color on hover */
-  }  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.contact-form label {
+  margin-bottom: 5px; /* Add some spacing between labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Make input fields take up full width */
+  margin-bottom: 10px; /* Add some spacing between input fields */
+  padding: 8px; /* Add padding for better appearance */
+}
+
+.contact-form button {
+  background-color: #007bff; /* Change button background color */
+  color: #fff; /* Change button text color */
+  padding: 10px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Change button background color on hover */
+}
+
+h2 {
+  color: #fff; /* Set the text color for h2 to white */
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px; /* Add some spacing below h2 */
+  padding: 10px; /* Add padding to h2 */
+}
+
+p.submitdesc {
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif; /* Change font family to Times New Roman */
+  line-height: 1.6; /* Set the line height for better readability */
+  margin-bottom: 30px; /* Add some spacing below p */
+  font-size: 17px; /* Set the font size for p */
+  padding: 15px; /* Add padding to p */
+  border-radius: 5px; /* Add border radius for a rounded appearance */
+  background-color: black;
+}

@@ -38,9 +38,36 @@ function ContactForm() {
 
   return (
     <div>
-      <h2>Varaa aika leikkuulle</h2>
+      <h2>VARAA AIKA TAPAAMISELLE</h2>
       <form className="contact-form" onSubmit={handleSubmit}>
-        {/* ... (rest of your form) */}
+        <div className="form-group">
+          <label htmlFor="nimi">Nimi:</label>
+          <input type="text" id="nimi" name="nimi" value={formData.nimi} onChange={handleInputChange} required />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="puhelinnumero">Puhelinnumero:</label>
+          <input type="tel" id="puhelinnumero" name="puhelinnumero" value={formData.puhelinnumero} onChange={handleInputChange} />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="paivamaara">Päivämäärä:</label>
+          <input type="date" id="paivamaara" name="paivamaara" value={formData.paivamaara} onChange={handleInputChange} />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="sahkoposti">Sähköposti:</label>
+          <input type="email" id="sahkoposti" name="sahkoposti" value={formData.sahkoposti} onChange={handleInputChange} required />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="viesti">Viesti:</label>
+          <textarea id="viesti" name="viesti" value={formData.viesti} onChange={handleInputChange}></textarea>
+        </div>
+
+        <div className="form-group">
+          <button type="submit">Lähetä</button>
+        </div>
       </form>
     </div>
   );

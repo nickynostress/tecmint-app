@@ -1,0 +1,24 @@
+/* styles/homepage.css */
+
+.homepage-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .loremipsum-box {
+    background-color: black; /* Change background color to black */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    color: white; /* Set text color to white */
+    font-family: 'Arial', sans-serif; /* Set font family */
+  }
+  
+  .loremipsum {
+    margin: 0;
+    font-size: 10px; /* Adjust font size */
+    line-height: 1.8; /* Set line height for better spacing */
+    font-weight: bold; /* Make the text bold */
+    text-align: justify; /* Justify the text */
+  }  
