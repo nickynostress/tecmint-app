@@ -5,29 +5,42 @@
   flex-direction: column;
   align-items: center;
   max-width: 400px;
-  background-color: darkslategrey; /* Dark background color */
-  padding: 20px;
-  border-radius: 10px; /* Add rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+  background-color: darkslategrey;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .contact-form label {
-  margin-bottom: 12px; /* Adjusted margin */
-  padding: 10px; /* Added padding */
+  margin-bottom: 12px;
+  padding: 10px;
   font-size: 14px;
-  color: whitesmoke; /* Dark text color */
-  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   margin-bottom: 16px;
-  padding: 20px;
-  border: 5px solid #ced4da; /* Light border color */
+  padding: 15px;
+  border: 2px solid #ced4da;
   border-radius: 5px;
   font-size: 14px;
   color: #495057;
+  transition: border-color 0.3s ease; /* Add a smooth transition for border color */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
 }
 
 .contact-form button {
@@ -38,8 +51,9 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s ease; /* Add a smooth transition for background color */
 }
 
 .contact-form button:hover {
   background-color: #0056b3;
-} 
+}

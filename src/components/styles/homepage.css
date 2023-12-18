@@ -7,12 +7,12 @@
 }
 
 .loremipsum-box {
-    background-color: black; /* Change background color to black */
+    background-color: black;
     border: 1px solid #ddd;
     padding: 15px;
-    border-radius: 10px; /* Increase border-radius for rounded corners */
-    color: white; /* Set text color to white */
-    font-family: 'Arial', sans-serif; /* Set font family */
+    border-radius: 10px;
+    color: white;
+    font-family: 'Times New Roman';
 }
 
 .loremipsum {

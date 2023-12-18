@@ -1,16 +1,24 @@
-/* Move footer to the bottom of the page */
+:root {
+  --footer-bg-color: #333;
+  --footer-text-color: white;
+  --footer-padding: 10px;
+  --icon-color: #dcddde;
+  --icon-size: 20px;
+  --icon-hover-color: #7289da;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #333; /* Set your footer background color */
-  color: white; /* Set your footer text color */
-  padding: 10px; /* Set padding for better appearance */
-} 
-  
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  padding: var(--footer-padding);
+}
+
 .footer-text {
-  font-size: 15px; /* Adjust the font size as needed */
+  font-size: 15px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -29,10 +37,10 @@
 }
 
 .social-icons li a {
-  color: #dcddde;
-  font-size: 20px;
+  color: var(--icon-color);
+  font-size: var(--icon-size);
 }
 
 .social-icons li a:hover {
-  color: #7289da;
+  color: var(--icon-hover-color);
 }

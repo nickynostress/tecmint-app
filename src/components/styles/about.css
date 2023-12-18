@@ -8,9 +8,9 @@ h2 {
   
 /* Apply styles to the p element */
 p {
-    color: #666; /* Text color */
+    color: whitesmoke; /* Text color */
     font-family: 'Arial', sans-serif; /* Font family */
     line-height: 1.6; /* Line height for better readability */
     margin-top: 10px; /* Top margin for spacing */
-    padding-top: 20px; /* Top padding for spacing */
+    padding-top: 20px;
 }
