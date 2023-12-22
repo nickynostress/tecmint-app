@@ -15,7 +15,7 @@ function Footer({ isVisible, currentYear, socialIcons }) {
           <p className="footer-text">&copy; {currentYear} NICKYNOSTRESS. All Rights Reserved.</p>
           <ul className="social-icons">
             {socialIcons.map((social, index) => (
-              <li key={index}><a href={social.link}><i className={`fab ${social.icon}`}></i></a></li>
+              <li key={index}><a href={social.link} target="_blank" rel="noopener noreferrer"><i className={`fab ${social.icon}`}></i></a></li>
             ))}
           </ul>
         </div>
@@ -39,10 +39,10 @@ Footer.defaultProps = {
   isVisible: false, // Footer is hidden by default
   currentYear: new Date().getFullYear(),
   socialIcons: [
-    { link: '#', icon: 'fa-facebook-f' },
-    { link: '#', icon: 'fa-twitter' },
-    { link: '#', icon: 'fa-instagram' },
-    { link: '#', icon: 'fa-linkedin' },
+    { link: 'https://www.facebook.com/your-facebook-page', icon: 'fa-facebook-f' },
+    { link: 'https://twitter.com/your-twitter-account', icon: 'fa-twitter' },
+    { link: 'https://www.instagram.com/your-instagram-account', icon: 'fa-instagram' },
+    { link: 'https://www.linkedin.com/in/your-linkedin-profile', icon: 'fa-linkedin' },
   ],
 };
 

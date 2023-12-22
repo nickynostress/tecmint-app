@@ -4,12 +4,15 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    font-family: 'Arial', sans-serif; /* Add your desired font-family */
+    color: #333; /* Add your desired font color */
 }
 
 .loremipsum-box {
     background-color: black;
     border: 1px solid #ddd;
-    padding: 15px;
+    padding: 20px; /* Add padding */
+    margin: 20px 0; /* Add margin top and bottom */
     border-radius: 10px;
     color: white;
     font-family: 'Times New Roman';
@@ -17,7 +20,7 @@
 
 .loremipsum {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8; /* Set line height for better spacing */
     font-weight: bold; /* Make the text bold */
     text-align: justify; /* Justify the text */

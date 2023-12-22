@@ -1,0 +1,22 @@
+/* UniversalSection.css */
+
+.universal-section {
+    text-align: center; /* Center align content */
+    margin-bottom: 30px; /* Add margin at the bottom */
+}
+
+.section-title {
+    color: whitesmoke; /* Text color */
+    font-family: 'Times New Roman', sans-serif; /* Use Times New Roman font-family */
+    font-size: 50px; /* Adjust font size */
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.section-description {
+    color: #555; /* Text color */
+    font-family: 'Arial', sans-serif; /* Add your desired font-family */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.6; /* Set line height for better spacing */
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add padding top and bottom */
+}

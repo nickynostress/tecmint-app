@@ -4,11 +4,11 @@ import './styles/contactform.css';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
-    nimi: '',
-    puhelinnumero: '',
-    paivamaara: '',
-    sahkoposti: '',
-    viesti: ''
+    NIMI: '',
+    PUHELINNUMERO: '',
+    PÄIVÄMÄÄRÄ: '',
+    SÄHKÖPOSTI: '',
+    VIESTI: ''
   });
 
   const handleInputChange = (event) => {
@@ -29,11 +29,11 @@ function ContactForm() {
       console.log('Email response:', response.data);
       // Reset the form or show a success message
       setFormData({
-        nimi: '',
-        puhelinnumero: '',
-        paivamaara: '',
-        sahkoposti: '',
-        viesti: ''
+        NIMI: '',
+        PUHELINNUMERO: '',
+        PÄIVÄMÄÄRÄ: '',
+        SÄHKÖPOSTI: '',
+        VIESTI: ''
       });
     } catch (error) {
       console.error('Error sending email:', error);

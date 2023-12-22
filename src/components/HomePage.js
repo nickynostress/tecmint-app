@@ -11,7 +11,7 @@ function HomePage() {
         description="This is my portfolio website created using React.js"
       />
       <UniversalImage
-        imageUrl="https://cdn.pixabay.com/photo/2019/06/06/14/58/unicorn-4256141_960_720.png"
+        imageUrl="https://cdn.pixabay.com/photo/2017/11/09/10/39/christmas-2933008_1280.jpg"
         altText="Portfolio Image"
       />
       <div className='loremipsum-box'>

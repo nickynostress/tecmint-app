@@ -1,0 +1,22 @@
+/* styles/navpage.css */
+
+.nav-container {
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 50px auto; /* Center the content with some margin from top */
+    text-align: center; /* Center align text */
+  }
+  
+  .nav-title {
+    color: whitesmoke; /* Set title text color to white */
+    font-family: 'Times New Roman', Times, serif; /* Change font family to Times New Roman */
+    font-size: 36px; /* Set title font size */
+    margin-bottom: 20px; /* Add margin below the title */
+  }
+  
+  .nav-description {
+    color: whitesmoke; /* Set description text color to white */
+    font-family: 'Times New Roman', Times, serif; /* Change font family to Times New Roman */
+    font-size: 18px; /* Set description font size */
+    line-height: 1.6; /* Set line height for better readability */
+    margin: 0; /* Remove default margin */
+  }  
