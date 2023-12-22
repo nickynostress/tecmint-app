@@ -11,24 +11,21 @@ p {
     color: whitesmoke; /* Text color */
     font-family: 'Times New Roman', Times, serif; /* Change font family to Times New Roman */
     line-height: 1.6; /* Line height for better readability */
-    margin: 10px 0; /* Add margin top and bottom */
+    margin: 20px 0; /* Add margin top and bottom */
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center; /* Center-align text */
 }
 
 /* Apply styles to the input element (text box) */
 input {
-    width: 150px; /* Set the width to 50 pixels */
-    height: 20px; /* Set the height to 20 pixels */
+    width: 150px; /* Set the width */
+    height: 30px; /* Set the height */
     padding: 10px; /* Padding for the input */
-    margin-top: 10px; /* Top margin for spacing */
-    margin-bottom: 20px; /* Bottom margin for spacing */
+    margin: 10px 0; /* Top and bottom margin for spacing */
     border: 1px solid #ccc; /* Border styling */
     border-radius: 4px; /* Border radius for rounded corners */
     font-family: 'Times New Roman', Times, serif; /* Change font family to Times New Roman */
-    color: red; /* Text color */
+    color: white; /* Text color */
     background-color: black; /* Background color */
     
     /* Additional styles for the text inside the input box */
